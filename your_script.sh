@@ -99,6 +99,6 @@ echo "Image files upload completed."
 
 echo "All tasks completed. Log file created at $LOG_FILE"
 
-
+#用之前先配置：./obsutil config -i=AK -k=SK -e=endpoint
 #用法：your_script.sh 加密的m3u8地址 obs桶 obs图片桶 图片地址
 #bash your_script.sh https://example.com/path/to/index.m3u8 /path/to/video/obs /path/to/img/obs /uploads/images/movies/2024-05-08/1715165462363.jpeg
